@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './Pages/Home/Home';
 import Register from './Pages/Register/Register';
 import Inicio from './Pages/Inicio/Inicio';
+import Cadastrar from './Pages/Cadastrar/Cadastrar';
 //-----------------------------------------------------------------------------------------------------
 import './Styles/Global.css';
 //-----------------------------------------------------------------------------------------------------
@@ -18,6 +19,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/Register' element={<Register />} />
         <Route path='/Inicio' element={<Inicio />} />
+        <Route path='/Cadastrar' element={<Cadastrar />} />
       </Routes>
     </Router>
   );

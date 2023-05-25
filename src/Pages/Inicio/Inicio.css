@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,300&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.App-Inicio {
+    display: flex;
+    align-items: center;
+}
+
+.Screen-Box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C6C6C6;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.welcome a {
+    font-size: 30px;
+}
+
+.disclaimer {
+    padding: 50px;
+}
+
+.disclaimer a {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.body-content {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.body-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 350px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(160deg, #180039 10%, #4E00B8 100%);
+    box-shadow: 5px 5px 15px 1px #000;
+    transform: translatey(0px);
+	animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-5px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.body-box span {
+    text-align: center;
+    padding: 15px;
+    max-width: 320px;
+    font-weight: bold;
+    color: #00D38C;
+}
+
+.scrImage {
+    padding: 15px;
+    width: 150px;
+    height: 150px;
+}

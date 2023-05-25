@@ -5,10 +5,9 @@
 }
 
 body {
-    background-color: #8A8A8A;
+    background-color: #C6C6C6;
     height: 100vh;
     width: 100vw;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    
 }
