@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,300&display=swap');
+
+
+.Card-Box-register {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(160deg, #180039 25%, #4E00B8 100%);
+    box-shadow: 5px 5px 10px 1px #000;
+}
+
+.Card-Box-register h1 {
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    letter-spacing: 2px;
+    margin: 20px;
+}
+
+.Infos-register {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.Infos-register span {
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.Infos-register input {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    background-color: #F9F9F9;
+    border-radius: 7px;
+    padding: 5px;
+    border-width: 0;
+}
+
+.btn-register {
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    outline: none;
+    border-radius: 5px;
+    color: #4E00B8;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    border-width: 0;
+    background-color: #00D38C;
+    box-shadow: 5px 5px 10px 1px #000;
+    cursor: pointer;
+}
