@@ -1,0 +1,38 @@
+.container {}
+
+.infoInput {
+    display: flex;
+    flex-direction: column;
+    background-color: #c9c9c9;
+    width: 300px;
+    height: 470px;
+    border-radius: 15px;
+}
+
+.info-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.info-box span {
+    color: #000;
+}
+
+.btn-cad-form {
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    outline: none;
+    border-radius: 5px;
+    color: #00D38C;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    border-width: 0;
+    background-color: #300075;
+    box-shadow: 5px 5px 10px 1px #000;
+    cursor: pointer;
+    align-self: center;
+}

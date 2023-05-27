@@ -4,7 +4,7 @@ import dbImage from '../../Images/OIUH711_07.png';
 import acsImage from '../../Images/OIUH711_17.png';
 import infImage from '../../Images/OIUH711_34.png';
 
-import { Navbar } from '../../Components/Navbar'
+import { Navbar } from '../../Components/Navbar/Navbar'
 
 export default function Inicio() {
     return (
